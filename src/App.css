@@ -36,3 +36,195 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.container {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.header{
+  text-align: center;
+  background-color:#282c34;
+  padding: 0.7em;
+  margin-top:0;
+  color:azure;
+  position: fixed;
+  top:0;
+  width: fill;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 8em;
+}
+
+.partList {
+  background-color:#61dafb;
+  border: 1px solid #282c34;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.partList h4{
+  color:#282c34;
+  font-size: 1.3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0.5em 0;
+  margin-top: 0;
+  text-align: center;
+  border-radius: 1em;
+  border: 1px solid #282c34;
+  font-weight: bold;
+  display: inline-flexbox;
+  max-width: 40vw;
+  background-color: aliceblue;
+  text-transform: capitalize;
+}
+
+
+ .display-glasses
+,.display-eyes
+,.display-mouths
+,.display-eyebrows
+,.display-facial_hair
+,.display-accessories\/hats
+,.display-accessories\/glasses
+,.display-accessories\/earrings
+,.display-accessories\/neckwear
+,.display-clothes\/layer_1
+,.display-clothes\/layer_2
+,.display-clothes\/layer_3
+{
+ width : 5em;
+ height: 5em;
+}
+
+.display-mouths
+, .display-eyes
+
+{
+  width: 6em;
+  height: 6em;
+}
+
+.display-hair
+,.display-body {
+  width: 3em;
+  height: 3em;
+}
+
+
+.partItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partItemsImage {
+  padding:0.2em;
+  margin: 0.2em;
+}
+
+/* .partItemsImage:hover {
+  transform: scale(2);
+  box-shadow: 0 0 1em 1em #282c34;
+} */
+
+.avatarImage {
+  width: 400px;
+  height: 400px;
+  /* background-color: whitesmoke; */
+  margin: 1em;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.randomizeBtn {
+  position: fixed;
+  bottom: 1em;
+  left: 7vw;
+  width: 10em;
+  height: 3em;
+}
+
+/* CSS */
+.randomizeBtn {
+  position: fixed;
+  top: 650px;
+  left: 7vw;
+  width: 10em;
+  height: 3em;
+  align-items: center;
+  background-image: linear-gradient(144deg,#dcecf3, #3e5b64 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  line-height: 1em;
+  max-width: 100%;
+  /* min-width: 140px; */
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.randomizeBtn:active,
+.randomizeBtn:hover {
+  outline: 0;
+  filter: brightness(120%);
+}
+
+@media (min-width: 768px) {
+  .randomizeBtn {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.selected {
+  width:  300px;
+  height: 400px;
+  padding: 2em;
+  border-radius: 2em;
+  position: fixed;
+  top: 20%;
+  left: 5vw;
+  background-color: rgba(100,0,0,0.01);
+
+}
+
+.body {
+  z-index: 1;
+}
+
+.clothes\/layer_1,.clothes\/layer_2,.clothes\/layer_3{
+  z-index: 2;
+}
+
+.eyes, .mouths, .noses {
+  z-index: 3;
+}
+
+.accessories\/glasses, .accessories\/neckwear {
+  z-index: 4;
+}
+
+.hair {
+  z-index: 5;
+}
+
+.accessories\/hats {
+  z-index: 6;
+}
