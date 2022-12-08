@@ -150,6 +150,7 @@
   /* flex-shrink: 0; */
   position: fixed;
   top:4em;
+  box-shadow: 0 0 1em 1em rgba(0,0,0,0.2);
 }
 
 /* CSS */
@@ -196,7 +197,7 @@
   position: fixed;
   top: 15vh;
   left: 25%;
-  background-color: rgba(100,0,0,0.04);
+  background-color: rgba(100,0,0,0.02);
 
 }
 
