@@ -8,19 +8,19 @@ function App() {
   const [selectedItems, setSelectedItems] = useState(
     [
       {type:"body", id: 1},
-      {type:"eyes", id: 1},
-      {type:"hair", id: 1},
-      {type:"facial_hair", id: 1},
-      {type:"noses", id: 1},
-      {type:"mouths", id: 1},
-      {type:"eyebrows", id: 1},
-      {type:"accessories/hats", id: 1},
-      {type:"accessories/glasses", id: 1},
-      {type:"accessories/earrings", id: 1},
-      {type:"accessories/neckwear", id: 3},
-      {type:"clothes/layer_1", id: 1},
-      {type:"clothes/layer_2", id: 1},
-      {type:"clothes/layer_3", id: 1}
+      {type:"eyes", id: 0},
+      {type:"hair", id: 0},
+      {type:"facial_hair", id: 0},
+      {type:"noses", id: 0},
+      {type:"mouths", id: 0},
+      {type:"eyebrows", id: 0},
+      {type:"accessories/hats", id: 0},
+      {type:"accessories/glasses", id: 0},
+      {type:"accessories/earrings", id: 0},
+      {type:"accessories/neckwear", id: 0},
+      {type:"clothes/layer_1", id: 0},
+      {type:"clothes/layer_2", id: 0},
+      {type:"clothes/layer_3", id: 0}
     ] 
   )
 
