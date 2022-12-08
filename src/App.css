@@ -208,7 +208,7 @@
   z-index: 4;
 }
 
-.hair, facial_hair {
+.hair, .facial_hair {
   z-index: 5;
 }
 
