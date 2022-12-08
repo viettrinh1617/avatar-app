@@ -138,11 +138,6 @@
   box-shadow: 0 0 1em 0.5em #282c34;
 } 
 
-.partItemsImage:active {
-  transform: scale(1.3);
-  box-shadow: 0 0 1em 0.5em #282c34;
-  background-color: aquamarine;
-} 
 
 .avatarImage {
   width: 100%;
