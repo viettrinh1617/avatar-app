@@ -5,6 +5,8 @@ function PartItems({type,count, handleSelect}) {
   for (let index = 1; index <= count; index++) {
     items = [...items, {type: type, index: index, src: `/character/${type}/${index}.png`}]
   }
+    items = [{type: type, index: 0, src: `/character/blank.png`},...items];
+
     return (
       <>
       <div className='partItems'>
