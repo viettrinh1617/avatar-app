@@ -53,9 +53,12 @@ function App() {
   const handleRandomize = () => {
     const newSelect = selectedItems.slice();
     newSelect.map(item => {
-      item.type === "noses" ? (item.id = 1) 
-      : (
-        item.id = Math.ceil(Math.random()*total[`${item.type}`])
+      if(item.type === "noses") (item.id = 1) 
+      else if(item.type ==="clothes/layer_1"||item.type ==="clothes/layer_2"||item.type ==="eyebrows"||item.type ==="hair") (item.id = Math.floor(Math.random()*total[`${item.type}`]))
+      else if(item.type ==="body"|| item.type==="eyes"|| item.type==="mouths") (item.id = Math.floor(Math.random()*total[`${item.type}`])+1) 
+      else (
+           item.id = Math.ceil(Math.round(Math.random())*Math.random()*total[`${item.type}`])
+        // item.id = Math.floor(Math.random()*(total[`${item.type}`]))
       )
       ;
     })
