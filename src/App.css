@@ -204,11 +204,11 @@
   z-index: 3;
 }
 
-.accessories\/glasses, .accessories\/neckwear {
+.hair, .facial_hair {
   z-index: 4;
 }
 
-.hair, .facial_hair {
+.accessories\/glasses, .accessories\/neckwear {
   z-index: 5;
 }
 
