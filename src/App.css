@@ -64,7 +64,7 @@
 .partList {
   background-color:#61dafb;
   border: 1px solid #282c34;
-  width: 100%;
+  flex-basis: 4;
   max-width: 700px;
   margin-bottom: 2em;
   padding: 1em;
@@ -86,7 +86,6 @@
   background-color: aliceblue;
   text-transform: capitalize;
 }
-
 
  .display-glasses
 ,.display-eyes
@@ -135,9 +134,13 @@
   box-shadow: 0 0 1em 1em #282c34;
 } */
 
+.avatarLeftSide {
+  flex-basis: 1;
+}
+
 .avatarImage {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   /* background-color: whitesmoke; */
   margin: 1em;
   /* flex-shrink: 0; */
@@ -147,7 +150,7 @@
 /* CSS */
 .randomizeBtn {
   position: fixed;
-  top: 50vh;
+  top: 20vh;
   left: 5vw;
   width: 6em;
   height: 2.5em;
@@ -186,7 +189,7 @@
   padding: 2em;
   border-radius: 2em;
   position: fixed;
-  top: 20vh;
+  top: 25vh;
   left: 5vw;
   background-color: rgba(100,0,0,0.01);
 
@@ -224,6 +227,7 @@
 
   .avatarImage {
     width: 30vw;
+    height: 30vw;
   }
 
   .selected {
@@ -235,7 +239,7 @@
   .randomizeBtn {
     font-size: 24px;
     min-width: 196px;
-    top: 70vh;
+    top: 15vh;
     width: 10em;
     height: 3em;
   }

@@ -5,6 +5,7 @@ function Avatar({selectedItems, handleRandomize}) {
         return (
             <>
             <div className='avatarImage'>
+                <button className='randomizeBtn' onClick={handleRandomize}>Randomize</button>
                 {  
                     selectedItems.map(item => {                      
                         return item.id > 0 ?
@@ -13,8 +14,7 @@ function Avatar({selectedItems, handleRandomize}) {
                     }
                     )
                 }
-                <button className='randomizeBtn' onClick={handleRandomize}>Randomize</button>
-            </div>   
+                            </div>   
             </> 
 
           )
