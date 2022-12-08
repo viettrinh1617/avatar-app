@@ -219,6 +219,7 @@
 @media screen and (min-width: 800px ) {
   .partList {
     width: 60vw;
+    max-width: 1000px;
   }
 
   .avatarImage {
