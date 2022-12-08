@@ -62,7 +62,7 @@
 }
 
 .partListWrapper {
-  margin-top: 60vh;
+  margin-top: 50vh;
 }
 
 .partList {
@@ -144,7 +144,7 @@
 
 .avatarImage {
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
   background-color: whitesmoke;
   /* margin: 1em; */
   /* flex-shrink: 0; */
