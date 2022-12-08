@@ -55,7 +55,7 @@ function App() {
     newSelect.map(item => {
       item.type === "noses" ? (item.id = 1) 
       : (
-        item.id = Math.floor(Math.random()*total[`${item.type}`]+1)
+        item.id = Math.ceil(Math.random()*total[`${item.type}`])
       )
       ;
     })
