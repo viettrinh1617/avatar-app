@@ -140,25 +140,17 @@
   height: 400px;
   /* background-color: whitesmoke; */
   margin: 1em;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   position: relative;
-}
-
-.randomizeBtn {
-  position: fixed;
-  bottom: 1em;
-  left: 7vw;
-  width: 10em;
-  height: 3em;
 }
 
 /* CSS */
 .randomizeBtn {
   position: fixed;
-  top: 650px;
-  left: 7vw;
-  width: 10em;
-  height: 3em;
+  top: 50vh;
+  left: 5vw;
+  width: 6em;
+  height: 2.5em;
   align-items: center;
   background-image: linear-gradient(144deg,#dcecf3, #3e5b64 50%,#00DDEB);
   border: 0;
@@ -186,20 +178,15 @@
   filter: brightness(120%);
 }
 
-@media (min-width: 768px) {
-  .randomizeBtn {
-    font-size: 24px;
-    min-width: 196px;
-  }
-}
 
 .selected {
-  width:  300px;
-  height: 400px;
+  width:  20vw;
+  height: 20vw;
+  max-width: 300px;
   padding: 2em;
   border-radius: 2em;
   position: fixed;
-  top: 20%;
+  top: 20vh;
   left: 5vw;
   background-color: rgba(100,0,0,0.01);
 
@@ -227,4 +214,27 @@
 
 .accessories\/hats {
   z-index: 6;
+}
+
+@media screen and (min-width: 800px ) {
+  .partList {
+    width: 60vw;
+  }
+
+  .avatarImage {
+    width: 30vw;
+  }
+
+  .selected {
+    width: 24vw;
+    height:  24vw;
+  }
+
+  .randomizeBtn {
+    font-size: 24px;
+    min-width: 196px;
+    top: 70vh;
+    width: 10em;
+    height: 3em;
+  }
 }
