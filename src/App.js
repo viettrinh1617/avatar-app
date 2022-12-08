@@ -11,7 +11,7 @@ function App() {
       {type:"eyes", id: 0},
       {type:"hair", id: 0},
       {type:"facial_hair", id: 0},
-      {type:"noses", id: 0},
+      {type:"noses", id: 1},
       {type:"mouths", id: 0},
       {type:"eyebrows", id: 0},
       {type:"accessories/hats", id: 0},
